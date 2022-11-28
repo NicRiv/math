@@ -2,8 +2,24 @@
  * Sucesión
  */
 
+// sucesión: n+a
+const scsSum = (a, max) => {
+    console.log('\nSucesion: n+a')
+
+    let n = 1
+    const s = () => n+a
+
+    console.log(`[a = ${a}]`)
+    while (n <= max) {
+        const res = s()
+        console.log(`${n} : ${res}`)
+        n++
+    }
+}
+scsSum(2, 10)
+
 // sucesión: an
-const scsLineal = (a, max) => {
+const scsMult = (a, max) => {
     console.log('\nSucesion: a*n')
 
     let n = 1
@@ -16,4 +32,4 @@ const scsLineal = (a, max) => {
         n++
     }
 }
-scsLineal(3, 10)
+// scsMult(3, 10)
