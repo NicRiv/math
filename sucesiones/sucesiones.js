@@ -81,3 +81,19 @@ const scsPot = (a, max) => {
     }
 }
 // scsPot(2, 10)
+
+// sucesión: n^(1/a)
+const scsRaiz = (a, max) => {
+    console.log('\nSucesion: n^(1/a)')
+
+    let n = 1
+    const s = () => Math.pow(n, 1/a)
+
+    console.log(`[a = ${a}]`)
+    while (n <= max) {
+        const res = s()
+        console.log(`${n} : ${res}`)
+        n++
+    }
+}
+// scsRaiz(2, 10)
