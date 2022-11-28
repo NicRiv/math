@@ -64,4 +64,4 @@ const scsDiv = (a, max) => {
         n++
     }
 }
-scsDiv(2, 10)
+// scsDiv(2, 10)
