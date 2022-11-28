@@ -49,3 +49,19 @@ const scsMult = (a, max) => {
     }
 }
 // scsMult(3, 10)
+
+// sucesión: n/a
+const scsDiv = (a, max) => {
+    console.log('\nSucesion: n/a')
+
+    let n = 1
+    const s = () => n/a
+
+    console.log(`[a = ${a}]`)
+    while (n <= max) {
+        const res = s()
+        console.log(`${n} : ${res}`)
+        n++
+    }
+}
+scsDiv(2, 10)
