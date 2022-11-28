@@ -16,7 +16,23 @@ const scsSum = (a, max) => {
         n++
     }
 }
-scsSum(2, 10)
+// scsSum(2, 10)
+
+// sucesión: n-a
+const scsResta = (a, max) => {
+    console.log('\nSucesion: n-a')
+
+    let n = 1
+    const s = () => n-a
+
+    console.log(`[a = ${a}]`)
+    while (n <= max) {
+        const res = s()
+        console.log(`${n} : ${res}`)
+        n++
+    }
+}
+// scsResta(2, 10)
 
 // sucesión: an
 const scsMult = (a, max) => {
