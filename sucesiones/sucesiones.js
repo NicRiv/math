@@ -3,19 +3,20 @@
  */
 
 // sucesión: n+a
-const scsSum = (a, max) => {
-    console.log('\nSucesion: n+a')
+const sSum = (a, n) => a+n 
+// const scsSum = (a, max) => {
+//     console.log('\nSucesion: n+a')
 
-    let n = 1
-    const s = () => n+a
+//     let n = 1
+//     const s = () => n+a
 
-    console.log(`[a = ${a}]`)
-    while (n <= max) {
-        const res = s()
-        console.log(`${n} : ${res}`)
-        n++
-    }
-}
+//     console.log(`[a = ${a}]`)
+//     while (n <= max) {
+//         const res = s()
+//         console.log(`${n} : ${res}`)
+//         n++
+//     }
+// }
 // scsSum(2, 10)
 
 // sucesión: n-a
