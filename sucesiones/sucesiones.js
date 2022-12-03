@@ -3,10 +3,10 @@
  */
 
 // sucesión: n+a
-const sSum = (a, n) => a+n 
+const sSum = (a, n) => n + a 
 
 // sucesión: n-a
-const sResta = (a, n) => a-n
+const sResta = (a, n) => n - a
 
 // sucesión: an
 const sMult = (a, n) => a*n
